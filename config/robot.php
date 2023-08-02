@@ -10,7 +10,7 @@ return [
             'demo' => [
                 'webhook' => '00000000-0000-0000-0000-000000000000',
                 'at' => ['all'],
-                'secret' => ''
+                'secret' => '',
             ],
         ],
         'wecom' => [
@@ -23,7 +23,7 @@ return [
             'demo' => [
                 'webhook' => 'access_token',
                 'at' => ['all'],
-                'secret' => ''
+                'secret' => '',
             ],
         ],
     ],
