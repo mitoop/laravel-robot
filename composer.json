@@ -1,0 +1,30 @@
+{
+  "name": "mitoop/laravel-robot",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mitoop",
+      "email": "me@mitoop.com"
+    }
+  ],
+  "require": {
+    "mitoop/robot": "^2.0",
+    "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mitoop\\LaravelRobot\\": "src/"
+    }
+  },
+  "extra": {
+        "laravel": {
+            "aliases": {
+                "Robot": "Mitoop\\LaravelRobot\\Facades\\Robot"
+            },
+            "providers": [
+                "Mitoop\\LaravelRobot\\ServiceProvider"
+            ]
+        }
+    }
+}
