@@ -2,7 +2,6 @@
 
 return [
     'default' => ['feishu.demo'],
-    'show_env' => true,
     'env' => env('APP_ENV', 'production'),
     'timeout' => 3,
     'channels' => [
