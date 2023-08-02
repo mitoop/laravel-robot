@@ -1,7 +1,9 @@
 <h1 align="center">Laravel Robot</h1>
 
-## 安装
+## 环境需求
+- Laravel >= 6
 
+## 安装
 ```shell
 composer require mitoop/laravel-robot
 ```
