@@ -26,5 +26,8 @@
                 "Mitoop\\LaravelRobot\\ServiceProvider"
             ]
         }
-    }
+    },
+  "require-dev": {
+    "laravel/pint": "^1.18"
+  }
 }
